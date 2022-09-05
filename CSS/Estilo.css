@@ -18,7 +18,16 @@ body{
     margin-top: 20px;
     border-radius: solid 1px black;
     background-color: rgb(253, 245, 236);
+    max-width: 50%;
 }
 #body{
     background-color: white;
+}
+#canvas-cont div{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#canvas-cont div button {
+    max-width: 100px;
 }
